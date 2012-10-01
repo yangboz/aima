@@ -21,6 +21,10 @@ aima-java:http://code.google.com/p/aima-java/
 
 aima-lisp:http://aima.cs.berkeley.edu/lisp/doc/overview.html
 
-aima-c++:
+aima-c++:http://www.eecs.wsu.edu/~holder/courses/cse5361/spr96/cse5361.html
 
-aima-prolog:
+aima-prolog:http://www.eecs.wsu.edu/~holder/courses/cse5361/spr95/cse5361.html
+
+aima-c#:http://www.cedarlearning.org/aima/readme_notes.txt
+
+...
