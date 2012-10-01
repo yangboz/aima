@@ -15,7 +15,7 @@ aima-algorithm:http://aima.cs.berkeley.edu/algorithms.pdf
 
 aima-python:http://code.google.com/p/aima-python/
 
-aima-java:code.google.com/p/aima-java/ 
+aima-java:http://code.google.com/p/aima-java/ 
 
 aima-lisp:http://aima.cs.berkeley.edu/lisp/doc/overview.html
 
