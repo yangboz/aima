@@ -27,4 +27,8 @@ aima-prolog:http://www.eecs.wsu.edu/~holder/courses/cse5361/spr95/cse5361.html
 
 aima-c#:http://www.cedarlearning.org/aima/readme_notes.txt
 
+Q && A
+====
+http://www.lookbackon.com/qa
+
 ...
