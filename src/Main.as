@@ -28,7 +28,11 @@ package
 	//--------------------------------------------------------------------------
 	
 	/**
-	 * Main.as class. 
+	 * Main.as class.Entry point to AIMA-Turing test approach,need to possess the following capabilities.</br>
+	 * #1.natural language processing to enable to communicate successfully in English.</br>
+	 * #2.knowledge representation to store what it konws or hears.</br>
+	 * #3.automated reasoning to use the stored information to answer questions an to draw new conclusions.</br>
+	 * #4.machine learning to adapt to new circumentances and to detect and extrapolate patterns.</br>
 	 * @author Knight.zhou
 	 * @langVersion 3.0
 	 * @playerVersion 11.2+

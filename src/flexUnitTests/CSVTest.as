@@ -2,6 +2,7 @@ package flexUnitTests
 {
 	import com.shortybmc.data.parser.CSV;
 	
+	import flash.events.Event;
 	import flash.net.URLRequest;
 	
 	import flexunit.framework.Assert;
@@ -19,7 +20,7 @@ package flexUnitTests
 		[After]
 		public function tearDown():void
 		{
-			this.csv = null;
+			//			this.csv = null;
 		}
 		
 		[BeforeClass]
@@ -163,12 +164,12 @@ package flexUnitTests
 		{
 			Assert.fail("Test method Not yet implemented");
 		}
-		
-		[Test]
-		public function testAddEventListener():void
-		{
-			Assert.fail("Test method Not yet implemented");
-		}
+		//		
+		//		[Test]
+		//		public function testAddEventListener():void
+		//		{
+		//			Assert.fail("Test method Not yet implemented");
+		//		}
 		
 		[Test]
 		public function testClose():void
@@ -179,38 +180,42 @@ package flexUnitTests
 		[Test]
 		public function testLoad():void
 		{
-//			Assert.fail("Test method Not yet implemented");
-			this.csv.load(new URLRequest("../aima-data/zoo.csv"));
+			//			Assert.fail("Test method Not yet implemented");
+			this.csv.load(new URLRequest("../lottery-data/red_bule_balls.csv"));
+			this.csv.addEventListener(Event.COMPLETE,function(event:Event):void
+			{
+				Assert.assertNotNull(csv.data);
+			});
 		}
-		
-		[Test]
-		public function testDispatchEvent():void
-		{
-			Assert.fail("Test method Not yet implemented");
-		}
-		
-		[Test]
-		public function testHasEventListener():void
-		{
-			Assert.fail("Test method Not yet implemented");
-		}
-		
-		[Test]
-		public function testRemoveEventListener():void
-		{
-			Assert.fail("Test method Not yet implemented");
-		}
-		
-		[Test]
-		public function testToString():void
-		{
-			Assert.fail("Test method Not yet implemented");
-		}
-		
-		[Test]
-		public function testWillTrigger():void
-		{
-			Assert.fail("Test method Not yet implemented");
-		}
+		//Event related
+		//		[Test]
+		//		public function testDispatchEvent():void
+		//		{
+		//			Assert.fail("Test method Not yet implemented");
+		//		}
+		//		
+		//		[Test]
+		//		public function testHasEventListener():void
+		//		{
+		//			Assert.fail("Test method Not yet implemented");
+		//		}
+		//		
+		//		[Test]
+		//		public function testRemoveEventListener():void
+		//		{
+		//			Assert.fail("Test method Not yet implemented");
+		//		}
+		//		
+		//		[Test]
+		//		public function testToString():void
+		//		{
+		//			Assert.fail("Test method Not yet implemented");
+		//		}
+		//		
+		//		[Test]
+		//		public function testWillTrigger():void
+		//		{
+		//			Assert.fail("Test method Not yet implemented");
+		//		}
 	}
 }
