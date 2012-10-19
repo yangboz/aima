@@ -21,6 +21,8 @@
  */
 package
 {
+	import flash.display.Sprite;
+
 	//--------------------------------------------------------------------------
 	//
 	// Imports
@@ -29,18 +31,20 @@ package
 	
 	/**
 	 * Main.as class.Entry point to AIMA-Turing test approach,need to possess the following capabilities.</br>
-	 * #1.natural language processing to enable to communicate successfully in English.</br>
-	 * #2.knowledge representation to store what it konws or hears.</br>
-	 * #3.automated reasoning to use the stored information to answer questions an to draw new conclusions.</br>
-	 * #4.machine learning to adapt to new circumentances and to detect and extrapolate patterns.</br>
-	 * @author Knight.zhou
+	 * #1.<b>natural language processing</b> to enable to communicate successfully in English.</br>
+	 * #2.<b>knowledge representation</b> to store what it konws or hears.</br>
+	 * #3.<b>automated reasoning</b> to use the stored information to answer questions an to draw new conclusions.</br>
+	 * #4.<b>machine learning</b> to adapt to new circumentances and to detect and extrapolate patterns.</br>
+	 * #5.<b>computer vision</b> to preceive objects,and</br>
+	 * #6.<b>robotics</b> to manipulates and move about.</br>
+	 * @author Knight.zhou<YoungWelle@gmail.com>
 	 * @langVersion 3.0
 	 * @playerVersion 11.2+
 	 * @airVersion 3.2+
 	 * Created 2012-10-3 下午1:03:57
 	 * @history 05/00/12,
 	 */ 
-	public class Main
+	public class Main extends Sprite
 	{ 
 		//--------------------------------------------------------------------------
 		//
